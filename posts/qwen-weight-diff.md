@@ -8,7 +8,7 @@
 >
 > **The short answer:** the feed-forward layers moved most and the norms barely moved at all — but transplanting the moved weights into the older model makes it *worse*. The improvement isn't located in a component. It's co-adaptive, and three of my own intermediate conclusions were measurement artefacts before I caught them.
 
-**[→ Interactive report: every tensor, every layer](assets/qwen-weight-diff/index.html)**
+**[→ Interactive report: every tensor, every layer](https://mohitburkule.github.io/blogs/posts/assets/qwen-weight-diff/index.html)**
 
 ---
 
@@ -324,6 +324,6 @@ keeps returning to — and that's where a deliberate intervention would have to 
 
 ---
 
-*Method and every number above: [the interactive report](assets/qwen-weight-diff/index.html) has
+*Method and every number above: [the interactive report](https://mohitburkule.github.io/blogs/posts/assets/qwen-weight-diff/index.html) has
 per-layer, per-tensor detail for all 1,182 tensors. Scripts are in
 [qwen38-27b-4090-findings](https://github.com/MohitBurkule/qwen38-27b-4090-findings).*
